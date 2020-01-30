@@ -52,7 +52,10 @@ if (j %= 0) {
 }
 
 // #4
- 
+
+// #5 Multiple if statements execute code when a statement is true, but 1 conditional statement will give an option if a statement is not true.
+if (project )
+
 
 // Loop Homework
 
