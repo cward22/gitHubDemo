@@ -47,15 +47,20 @@ j %= 2; // yes, it returned 0
 // #2 & 3
 if (j %= 0) {
     console.log("joy");
-} else {
-    console.log("not even");
+ } else {
+   console.log("not even");
 }
 
 // Loop Homework
-for (var i = 0; i <50; i++) {
-    console.log("more testing");
-}
-// or
+
+// for loop
 for (var i = 0; i <50; i++) {
     console.log(i);
+}
+
+// while loop
+for (var m = 0; m < 50; m++) {
+    if (m % 2 == 0) {
+        console.log(m);
+    }
 }
