@@ -33,6 +33,20 @@ volume = 7;
     console.log(2 + true);
 
 // Conditional Homework
+// #1
 var j = 2;
-j += 5;
+j = j +5;
+    console.log(j);
 j *= 2;
+    console.log(j);
+j %= 3; // I think it will return 2
+    console.log(j);
+j %= 2; // yes, it returned 0
+    console.log(j);
+
+// #2 & 3
+if (j %= 0) {
+    console.log("joy");
+} else {
+    console.log("not even");
+}
