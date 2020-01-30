@@ -72,19 +72,19 @@ if (k > l) {
 }
 
 // #5 Multiple if statements execute code when a condition is true, but 1 conditional statement will give an option to do something else if a condition is not true.
-var temp;
+var tempIsHot;
 var goForARun;
-var readABook;
+var tempIsCold;
 
-temp = true;
-GoForARun = true;
-readABook = true;
+tempIsHot = true;
+goForARun = true;
+tempIsCold = false;
 
 if (temp) {
     console.log ("yayyyy");
     } if (goForARun) {
         console.log ("gonna have fun");
-    } if (readABook){
+    } if (tempIsCold){
             console.log ("no other options");
     }
 
