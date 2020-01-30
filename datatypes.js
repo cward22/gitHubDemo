@@ -51,9 +51,24 @@ if (j %= 0) {
    console.log("not even");
 }
 
-// #4 
-if ( j < 0) {
-    console.log("happy heart");
+// #4
+var k = 4;
+var l = 2;
+
+if ( k < 5 && l > 1) {
+    console.log("true");
+}
+
+if (k < 5 && l < 1) {
+    console.log("false");
+}
+
+if (k == 4 || l ==2) {
+    console.log("true");
+}
+
+if (k > l) {
+    console.log("true");
 }
 
 // #5 Multiple if statements execute code when a condition is true, but 1 conditional statement will give an option to do something else if a condition is not true.
