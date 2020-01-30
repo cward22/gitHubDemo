@@ -53,9 +53,22 @@ if (j %= 0) {
 
 // #4
 
-// #5 Multiple if statements execute code when a statement is true, but 1 conditional statement will give an option if a statement is not true.
-if (project )
+// #5 Multiple if statements execute code when a condition is true, but 1 conditional statement will give an option to do something else if a condition is not true.
+var temp;
+var goForARun;
+var readABook;
 
+temp = true;
+GoForARun = true;
+readABook = true;
+
+if (temp) {
+    console.log ("yayyyy");
+    } if (goForARun) {
+        console.log ("gonna have fun");
+    } if (readABook){
+            console.log ("gonna stay inside");
+    }
 
 // Loop Homework
 
