@@ -31,3 +31,8 @@ volume = 7;
 
 // #4 - Bonus returned: 3
     console.log(2 + true);
+
+// Conditional Homework
+var j = 2;
+j += 5;
+j *= 2;
