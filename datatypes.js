@@ -51,6 +51,9 @@ if (j %= 0) {
    console.log("not even");
 }
 
+// #4
+ 
+
 // Loop Homework
 
 // for loop
@@ -63,4 +66,9 @@ for (var m = 0; m < 50; m++) {
     if (m % 2 == 0) {
         console.log(m);
     }
+}
+
+// loop from 0 to 100
+for (var n = 0; n < 101; n++) {
+    console.log(n);
 }
