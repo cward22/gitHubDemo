@@ -50,3 +50,8 @@ if (j %= 0) {
 } else {
     console.log("not even");
 }
+
+// Loop Homework
+for (var i = 0; i <50; i++) {
+    console.log("more testing");
+}
