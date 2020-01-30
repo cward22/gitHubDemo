@@ -51,7 +51,10 @@ if (j %= 0) {
    console.log("not even");
 }
 
-// #4
+// #4 
+if ( j < 0) {
+    console.log("happy heart");
+}
 
 // #5 Multiple if statements execute code when a condition is true, but 1 conditional statement will give an option to do something else if a condition is not true.
 var temp;
@@ -85,6 +88,6 @@ for (var m = 0; m < 50; m++) {
 }
 
 // loop from 0 to 100
-for (var n = 0; n < 101; n++) {
+for (var n = 0; n < 100; n++) {
     console.log(n);
 }
