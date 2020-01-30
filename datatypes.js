@@ -59,8 +59,8 @@ if ( k < 5 && l > 1) {
     console.log("true");
 }
 
-if (k < 5 && l < 1) {
-    console.log("false");
+if (k < 5 || l > 1) {
+    console.log("true");
 }
 
 if (k == 4 || l ==2) {
