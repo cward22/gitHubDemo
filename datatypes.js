@@ -85,7 +85,7 @@ if (temp) {
     } if (goForARun) {
         console.log ("gonna have fun");
     } if (readABook){
-            console.log ("gonna stay inside");
+            console.log ("no other options");
     }
 
 // Loop Homework
