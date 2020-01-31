@@ -120,3 +120,4 @@ var b = 6;
 function addThem (a, b) {
     return a + b;
 }
+    console.log(add(4,6)); // 10
