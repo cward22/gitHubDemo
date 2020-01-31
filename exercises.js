@@ -131,7 +131,7 @@ for (n; n < 100; n++) {
 }
 
 var n = 0
-for (n; n < 101; n++) {
+for (n; n < 100; n++) {
         if (n % 3 === 0) {
             console.log (n + " fizz"); 
         } else if (n % 5 === 0) {

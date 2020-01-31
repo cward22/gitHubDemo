@@ -68,7 +68,7 @@ for (n; n < 100; n++) {
                 }
             }
 
-            for (n; n < 101; n++) {
+            for (n; n < 100; n++) {
                 if (n % 3 === 0 && n % 5 === 0) {
                     console.log (n + " fizzbuzz"); }
                     else if (n % 3 === 0) {
