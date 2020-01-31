@@ -133,7 +133,7 @@ var b = 6;
 function addThem (a, b) {
     return a + b;
 }
-    console.log(add(4,6)); // 10
+    console.log (addThem(4,6)); // 10
 
 // #2 
 function multiThem (a, b) {
@@ -142,8 +142,6 @@ function multiThem (a, b) {
 
 // #4
 var skip
-
-function saveThem (files) 
 
 // #5 - Create an IFFE
 (function drive () {
