@@ -114,8 +114,9 @@ a2 = 3
     console.log (a1 + a2);
     console.log (a1 * a2);
 
-var a = myFunction (4, 6)
+var a = 4;
+var b = 6;
 
-function myFunction (a, b) {
+function addThem (a, b) {
     return a + b;
 }
