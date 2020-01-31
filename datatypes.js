@@ -107,7 +107,7 @@ for (var n = 0; n < 100; n++) {
     console.log(n);
 }
 
-// a
+// additional steps
 for (var n = 0; n < 100; n++) {
     console.log(n);
         if (n % 3 === 0) {
@@ -119,7 +119,6 @@ for (var n = 0; n < 100; n++) {
             }
 
 // Function Homework
-// #1
 a1 = 7
 a2 = 3
     console.log (a1 + a2);
@@ -128,11 +127,18 @@ a2 = 3
 var a = 4;
 var b = 6;
 
+// #1
 function addThem (a, b) {
     return a + b;
 }
     console.log(add(4,6)); // 10
 
-(function () {
-    alert ("Good Morning!"); // I will invoke myself
-}());
+// #2 
+function multiThem (a, b) {
+    return a * b;
+}
+
+// #5 - Create an IFFE
+(function drive () {
+    console.log ('Good Morning!'); // I will invoke myself
+})();
