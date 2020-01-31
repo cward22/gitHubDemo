@@ -80,7 +80,7 @@ tempIsHot = true;
 goForARun = true;
 tempIsCold = false;
 
-if (temp) {
+if (tempIsHot) {
     console.log ("yayyyy");
     } if (goForARun) {
         console.log ("gonna have fun");
