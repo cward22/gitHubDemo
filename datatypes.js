@@ -110,13 +110,14 @@ for (var n = 0; n < 100; n++) {
 }
 
 // additional steps
-for (var n = 0; n < 100; n++) {
-    console.log(n);
+var n = 0
+for (n; n < 100; n++) {
         if (n % 3 === 0) {
             console.log ("fizz"); }
             else if (n % 5 === 0) {
                 console.log ("buzz"); }
                 else if (n % 3 === 0 && n % 5 === 0); {
+                    console.log ("fizzbuzz");
                 }
             }
 
@@ -148,3 +149,12 @@ var skip
 (function drive () {
     console.log ('Good Morning!'); // I will invoke myself
 })();
+
+var len =str.length;
+console.log(len);
+console.log(str[0]);
+console.log(str[10]);
+
+for(var i = 0; i < str.length; i++) {
+        console.log(str[i]);
+}
