@@ -118,17 +118,26 @@ for (var n = 0; n < 100; n++) {
 }
 
 // additional steps
-var n = 0
+// var q = 0
 
-for (n; n < 100; n++) {
-        if (n % 3 === 0 && n % 5 === 0) {
-            console.log (n + " fizz"); 
-        } else if (n % 3 === 0) {
-                console.log (n + " buzz");
-             } else if (n % 5 === 0); {
-                    console.log (n + " fizzbuzz");
-                }
+
+
+for (var q = 1; q < 100; q++) {
+    if (q % 3 === 0 && q % 5 === 0) {
+        console.log(q + " fizzbuzz"); 
+    } else if(q % 3 === 0) {
+        console.log(q + " fizz");
+    } else if (q % 5 === 0) {
+        console.log(q + " buzz");
+    } else {
+        console.log(q);
+    }
 }
+
+
+
+
+
 
 var n = 0
 for (n; n < 100; n++) {
