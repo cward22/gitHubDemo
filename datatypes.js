@@ -171,3 +171,20 @@ for(var i = 0; i < str.length; i++) {
 var upperCaseStr = str.toUpperCase();
 console.log(upperCaseStr);
 console.log(upperCaseStr.toLowerCase());
+
+if(1 === 1) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+var str = "hello world";
+
+if(str.includes('hello', 1)){
+    console.log('included');
+} else {
+    console.log('exluded');
+}
+
+console.log(str.slice(1, 10));
+console.log(str.slice(1, 11));
