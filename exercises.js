@@ -118,9 +118,7 @@ for (var n = 0; n < 100; n++) {
 }
 
 // additional steps
-// var q = 0
-
-
+// var q = 1
 
 for (var q = 1; q < 100; q++) {
     if (q % 3 === 0 && q % 5 === 0) {
@@ -133,22 +131,6 @@ for (var q = 1; q < 100; q++) {
         console.log(q);
     }
 }
-
-
-
-
-
-
-var n = 0
-for (n; n < 100; n++) {
-        if (n % 3 === 0) {
-            console.log (n + " fizz"); 
-        } else if (n % 5 === 0) {
-                console.log (n + " buzz"); 
-            } else if (n % 3 === 0 && n % 5 === 0); {
-                    console.log (n + " fizzbuzz");
-                        }
-                    }
 
 // Function Homework
 
