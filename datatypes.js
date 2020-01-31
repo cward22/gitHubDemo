@@ -113,3 +113,5 @@ a1 = 7
 a2 = 3
     console.log (a1 + a2);
     console.log (a1 * a2);
+
+var x = myCandy()
