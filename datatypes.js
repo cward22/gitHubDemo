@@ -107,6 +107,17 @@ for (var n = 0; n < 100; n++) {
     console.log(n);
 }
 
+// a
+for (var n = 0; n < 100; n++) {
+    console.log(n);
+        if (n % 3 === 0) {
+            console.log ("fizz"); }
+            else if (n % 5 === 0) {
+                console.log ("buzz"); }
+                else if (n % 3 === 0 && n % 5 === 0); {
+                }
+            }
+
 // Function Homework
 // #1
 a1 = 7
@@ -121,3 +132,7 @@ function addThem (a, b) {
     return a + b;
 }
     console.log(add(4,6)); // 10
+
+(function () {
+    alert ("Good Morning!"); // I will invoke myself
+}());
