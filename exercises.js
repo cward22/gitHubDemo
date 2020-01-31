@@ -119,6 +119,7 @@ for (var n = 0; n < 100; n++) {
 
 // additional steps
 var n = 0
+
 for (n; n < 100; n++) {
         if (n % 3 === 0 && n % 5 === 0) {
             console.log (n + " fizz"); 
