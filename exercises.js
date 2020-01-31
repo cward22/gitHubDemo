@@ -69,8 +69,8 @@ if (k == 4 || l == 2) {
     console.log("true");
 }
 
-if (k != 4 && l == !2) {
-    console.log("false");
+if (k = 4 && l == 2) {
+    console.log("true");
 }
 
 // #5 - Multiple if statements execute code when a condition is true, but 1 conditional statement will give an option to do something else if a condition is not true.
@@ -104,6 +104,14 @@ for (var m = 0; m < 50; m++) {
     }
 }
 
+var z = 1;
+while (z <= 50){
+    if (z % 2 === 0){
+        console.log(z)
+    }
+    z++
+}
+
 // loop from 0 to 100
 for (var n = 0; n < 100; n++) {
     console.log(n);
@@ -112,25 +120,30 @@ for (var n = 0; n < 100; n++) {
 // additional steps
 var n = 0
 for (n; n < 100; n++) {
-        if (n % 3 === 0) {
-            console.log ("fizz"); }
-            else if (n % 5 === 0) {
-                console.log ("buzz"); }
-                else if (n % 3 === 0 && n % 5 === 0); {
-                    console.log ("fizzbuzz");
+        if (n % 3 === 0 && n % 5 === 0) {
+            console.log (n + " fizzbuzz"); }
+            else if (n % 3 === 0) {
+                console.log (n + " fizz"); }
+                    else if (n % 5 === 0); {
+                    console.log (n + " buzz");
                 }
             }
 
-// Function Homework
-a1 = 7
-a2 = 3
-    console.log (a1 + a2);
-    console.log (a1 * a2);
+var n = 0
+for (n; n < 100; n++) {
+        if (n % 3 === 0) {
+            console.log (n + " fizz"); }
+            else if (n % 5 === 0) {
+                console.log (n + " buzz"); }
+                    else if (n % 3 === 0 && n % 5 === 0); {
+                        console.log (n + " fizzbuzz");
+                            }
+                        }
 
-var a = 4;
-var b = 6;
+// Function Homework
 
 // #1
+
 function addThem (a, b) {
     return a + b;
 }
@@ -142,10 +155,27 @@ function multiThem (a, b) {
 }
     console.log (multiThem(4,6)); // 24
 
+// #3
+
+function myFunct (grace, mercy) {
+    for (var f = grace; f <= mercy; f++) {
+        console.log (f);
+    }
+}
+myFunct (8, 28);
+
 // #4
-var skip
+var s = 20;
+// code typed here can use s
+
+function addThemOne (t) {
+    // code typed here can also use s
+    return s + t;
+}
+    console.log (addThemOne(20)); // 40
 
 // #5 - Create an IFFE
 (function drive () {
     console.log ('Good Morning!'); // I will invoke myself
 })();
+
