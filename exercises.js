@@ -121,24 +121,24 @@ for (var n = 0; n < 100; n++) {
 var n = 0
 for (n; n < 100; n++) {
         if (n % 3 === 0 && n % 5 === 0) {
-            console.log (n + " fizzbuzz"); }
-            else if (n % 3 === 0) {
-                console.log (n + " fizz"); }
-                    else if (n % 5 === 0); {
-                    console.log (n + " buzz");
+            console.log (n + " fizz"); 
+        } else if (n % 3 === 0) {
+                console.log (n + " buzz");
+             } else if (n % 5 === 0); {
+                    console.log (n + " fizzbuzz");
                 }
-            }
+}
 
 var n = 0
-for (n; n < 100; n++) {
+for (n; n < 101; n++) {
         if (n % 3 === 0) {
-            console.log (n + " fizz"); }
-            else if (n % 5 === 0) {
-                console.log (n + " buzz"); }
-                    else if (n % 3 === 0 && n % 5 === 0); {
-                        console.log (n + " fizzbuzz");
-                            }
+            console.log (n + " fizz"); 
+        } else if (n % 5 === 0) {
+                console.log (n + " buzz"); 
+            } else if (n % 3 === 0 && n % 5 === 0); {
+                    console.log (n + " fizzbuzz");
                         }
+                    }
 
 // Function Homework
 
