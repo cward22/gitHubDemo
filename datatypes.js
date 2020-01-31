@@ -139,7 +139,7 @@ function addThem (a, b) {
 function multiThem (a, b) {
     return a * b;
 }
-    console.log (multiThem(4,6)); // 10
+    console.log (multiThem(4,6)); // 24
 
 // #4
 var skip
