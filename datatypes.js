@@ -1,3 +1,5 @@
+// Datatypes Homework
+
 // #1 - Adding 2 Strings Together
     console.log("2" + "2");
 
@@ -137,6 +139,11 @@ function addThem (a, b) {
 function multiThem (a, b) {
     return a * b;
 }
+
+// #4
+var skip
+
+function saveThem (files) 
 
 // #5 - Create an IFFE
 (function drive () {
