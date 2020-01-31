@@ -106,3 +106,10 @@ for (var m = 0; m < 50; m++) {
 for (var n = 0; n < 100; n++) {
     console.log(n);
 }
+
+// Function Homework
+// #1
+a1 = 7
+a2 = 3
+    console.log (a1 + a2);
+    console.log (a1 * a2);
