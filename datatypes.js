@@ -71,7 +71,7 @@ if (k != 4 && l == !2) {
     console.log("false");
 }
 
-// #5 Multiple if statements execute code when a condition is true, but 1 conditional statement will give an option to do something else if a condition is not true.
+// #5 - Multiple if statements execute code when a condition is true, but 1 conditional statement will give an option to do something else if a condition is not true.
 var tempIsHot;
 var goForARun;
 var tempIsCold;
@@ -114,3 +114,8 @@ a2 = 3
     console.log (a1 + a2);
     console.log (a1 * a2);
 
+var a = myFunction (4, 6)
+
+function myFunction (a, b) {
+    return a + b;
+}
