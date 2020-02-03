@@ -84,10 +84,12 @@ tempIsCold = false;
 
 if (tempIsHot) {
     console.log ("yayyyy");
-    } if (goForARun) {
-        console.log ("gonna have fun");
-    } if (tempIsCold){
-            console.log ("no other options");
+    } 
+if (goForARun) {
+    console.log ("gonna have fun");
+    } 
+if (tempIsCold){
+    console.log ("no other options");
     }
 
 // Loop Homework
@@ -171,3 +173,18 @@ function addThemOne (t) {
     console.log ('Good Morning!'); // I will invoke myself
 })();
 
+// Math Homework
+var random = Math.floor(Math.random() * 15);
+
+function randomCheck(){
+    var x= document.getElementById('userInput').value;
+        console.log
+        if (random == x) {
+            console.log ("Great job!");
+        } else {
+            console.log ("Try again!");
+    // extra
+            console.log (random);
+            console.log (x);
+        }
+}
