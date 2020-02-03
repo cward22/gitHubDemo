@@ -20,3 +20,7 @@ var length = string.length;
 // #3
 var str = "It's a good day!";
     console.log(str.toUpperCase());
+
+// Arrays 2 Homework
+
+var inventoryArray = ["guitar", "piano", "drums"]
