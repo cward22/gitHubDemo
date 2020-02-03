@@ -22,5 +22,11 @@ var str = "It's a good day!";
     console.log(str.toUpperCase());
 
 // Arrays 2 Homework
-
+/*
 var inventoryArray = ["guitar", "piano", "drums"]
+var inventoryLength = inventoryArray.length;
+
+for (i = 0; i < inventoryArray.length; i--) {
+    console.log(inventoryArray[i]);
+}
+*/
