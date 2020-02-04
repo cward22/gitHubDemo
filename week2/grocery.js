@@ -33,6 +33,16 @@ let inventory = [
     ["mayonnaise", 10]
 ]
 
+function add() {
+  let input = document.getElementById('userInput').value;
+  inventory.forEach(array => {
+      if(input == array [0]) {
+          array[1] += 1;
+          console.log(array);
+      }
+  });
+}
+
 function sub() {
   let input = document.getElementById("userInput").value;
   for(let i = 0; inventory.length; i++) {
@@ -50,13 +60,3 @@ function sub() {
 let inventoryTwo = ["bananas", "apples", "fries", "lettuce", "ground beef", "buns", "ketchup", "oil", "lemonade", "mayonnaise"];
 let quantity = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10];
 */
-
-function add() {
-    let input = document.getElementById('userInput').value;
-    inventory.forEach(array => {
-        if(input == array [0]) {
-            array[1] += 1;
-            console.log(array);
-        }
-    });
-}
