@@ -20,21 +20,43 @@ fillArray();
 console.log(inventory);
 */
 
-var x = document.getElementById('userInput').value;
-
 let inventory = [
-    ["bananas", 100],
-    ["apples", 90],
+    ["banana", 100],
+    ["apple", 90],
     ["fries", 80],
     ["lettuce", 70],
     ["ground beef", 60],
-    ["buns", 50],
+    ["bread", 50],
     ["ketchup", 40],
     ["oil", 30],
     ["lemonade", 20],
     ["mayonnaise", 10]
 ]
 
+function sub() {
+  let input = document.getElementById("userInput").value;
+  for(let i = 0; inventory.length; i++) {
+    if(input == inventory[i][0]) {
+      if(inventory[i][1] > 0) {
+        inventory[i][1] -= 1;
+        console.log(inventory[i]);
+      } else {
+          console.log(`${input} is out of stock!`);
+      }
+    }
+  }
+}
+/*
 let inventoryTwo = ["bananas", "apples", "fries", "lettuce", "ground beef", "buns", "ketchup", "oil", "lemonade", "mayonnaise"];
 let quantity = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10];
+*/
 
+function add() {
+    let input = document.getElementById('userInput').value;
+    inventory.forEach(array => {
+        if(input == array [0]) {
+            array[1] += 1;
+            console.log(array);
+        }
+    });
+}
