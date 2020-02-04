@@ -23,7 +23,7 @@ console.log(inventory);
 let inventory = [
     ["banana", 100],
     ["apple", 90],
-    ["fries", 80],
+    ["potato", 80],
     ["lettuce", 70],
     ["ground beef", 60],
     ["bread", 50],
@@ -34,7 +34,7 @@ let inventory = [
 ]
 
 function add() {
-  let input = document.getElementById('userInput').value;
+  let input = document.getElementById("userInput").value;
   inventory.forEach(array => {
       if(input == array [0]) {
           array[1] += 1;
@@ -45,7 +45,7 @@ function add() {
 
 function sub() {
   let input = document.getElementById("userInput").value;
-  for(let i = 0; inventory.length; i++) {
+  for(let i = 0; i < inventory.length; i++) {
     if(input == inventory[i][0]) {
       if(inventory[i][1] > 0) {
         inventory[i][1] -= 1;
