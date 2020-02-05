@@ -21,7 +21,7 @@ var length = string.length;
 var str = "It's a good day!";
     console.log(str.toUpperCase());
 /*
-Arrays 2 Homework - see grocery.js
+Arrays 2 Homework
 
 var inventoryArray = ["bananas", "apples", "fries"]
 var inventoryLength = inventoryArray.length;
@@ -49,3 +49,28 @@ fillArray();
 
 console.log(inventory);
 */
+
+let inventory = [
+    ["banana", 100],
+    ["apple", 90],
+    ["potato", 80],
+    ["lettuce", 70],
+    ["ground beef", 60],
+    ["bread", 50],
+    ["ketchup", 40],
+    ["oil", 30],
+    ["lemonade", 20],
+    ["mayonnaise", 10]
+]
+
+function sub() {
+    let input = document.getElementById("userInput").value;
+    for(let i = 0; i < inventory.length; i++) {
+      if(input == inventory[i][0]) {
+        if(inventory[i][1] > 0) {
+          inventory[i][1] -= 1;
+          console.log(inventory[i]);
+        }
+      }
+    }
+  }

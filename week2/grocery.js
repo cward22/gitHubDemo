@@ -21,16 +21,16 @@ console.log(inventory);
 */
 
 let inventory = [
-    ["banana", 100],
-    ["apple", 90],
-    ["potato", 80],
-    ["lettuce", 70],
-    ["ground beef", 60],
-    ["bread", 50],
-    ["ketchup", 40],
-    ["oil", 30],
-    ["lemonade", 20],
-    ["mayonnaise", 10]
+    ["banana", 12],
+    ["apple",11],
+    ["potato", 10],
+    ["lettuce", 9],
+    ["ground beef", 8],
+    ["bread", 7],
+    ["ketchup", 6],
+    ["oil", 5],
+    ["lemonade", 4],
+    ["mayonnaise", 3]
 ]
 
 function add() {
@@ -57,6 +57,7 @@ function sub() {
   }
 }
 // should the app list each inventory item and have '+' or '-' buttons next to each item? Should there be a function for if out of stock? Should there be an if statement for if out of stock?
+// should there be some type of comparison statement so that if the input is greater than what's available, a notification appears?
 
 /*
 let inventoryTwo = ["bananas", "apples", "fries", "lettuce", "ground beef", "buns", "ketchup", "oil", "lemonade", "mayonnaise"];
