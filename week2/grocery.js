@@ -56,8 +56,9 @@ function sub() {
     }
   }
 }
+// should the app list each inventory item and have '+' or '-' buttons next to each item? Should there be a function for if out of stock? Should there be an if statement for if out of stock?
+
 /*
 let inventoryTwo = ["bananas", "apples", "fries", "lettuce", "ground beef", "buns", "ketchup", "oil", "lemonade", "mayonnaise"];
 let quantity = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10];
 */
-// should the app list each inventory item and have '+' or '-' buttons next to each item? Should there be a function for if out of stock? Should there be an if statement for if out of stock?
