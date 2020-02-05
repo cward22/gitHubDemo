@@ -13,7 +13,7 @@ var arrayLength = groceriesArray.length;
 var string = "It's a good day!"
 var length = string.length;
 
-    for (var i = 0; i < string.length; i++){
+    for (var i = 0; i < string.length; i++) {
         console.log (string[i])
     }
 
