@@ -49,8 +49,8 @@ j %= 2; // yes, it returned 0
 // #2 & 3
 if (j %= 0) {
     console.log("joy");
- } else {
-   console.log("not even");
+    } else {
+    console.log("not even");
 }
 
 // #4
@@ -83,13 +83,13 @@ goForARun = true;
 tempIsCold = false;
 
 if (tempIsHot) {
-    console.log ("yayyyy");
+    console.log("yayyyy");
     } 
 if (goForARun) {
-    console.log ("gonna have fun");
+    console.log("gonna have fun");
     } 
 if (tempIsCold){
-    console.log ("no other options");
+    console.log("no other options");
     }
 
 // Loop Homework
@@ -141,19 +141,19 @@ for (var q = 1; q < 100; q++) {
 function addThem (a, b) {
     return a + b;
 }
-    console.log (addThem(4,6)); // 10
+    console.log(addThem(4,6)); // 10
 
 // #2 
 function multiThem (a, b) {
     return a * b;
 }
-    console.log (multiThem(4,6)); // 24
+    console.log(multiThem(4,6)); // 24
 
 // #3
 
-function myFunct (grace, mercy) {
-    for (var f = grace; f <= mercy; f++) {
-        console.log (f);
+function loop (start, end) {
+    for (var f = start; f <= end; f++) {
+        console.log(f);
     }
 }
 myFunct (8, 28);
@@ -162,15 +162,15 @@ myFunct (8, 28);
 var s = 20;
 // code typed here can use s
 
-function addThemOne (t) {
+function addThemTogether (t) {
     // code typed here can also use s
     return s + t;
 }
-    console.log (addThemOne(20)); // 40
+    console.log(addThemTogether(20)); // 40
 
 // #5 - Create an IFFE
 (function drive () {
-    console.log ('Good Morning!'); // I will invoke myself
+    console.log('Good Morning!'); // I will invoke myself
 })();
 
 // Math Homework
@@ -180,11 +180,11 @@ function randomCheck(){
     var x= document.getElementById('userInput').value;
         console.log
         if (random == x) {
-            console.log ("Great job!");
+            console.log("Great job!");
         } else {
-            console.log ("Try again!");
+            console.log("Try again!");
     // extra
-            console.log (random);
-            console.log (x);
+            console.log(random);
+            console.log(x);
         }
 }

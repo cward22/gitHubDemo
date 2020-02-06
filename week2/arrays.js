@@ -14,7 +14,7 @@ var string = "It's a good day!"
 var length = string.length;
 
     for (var i = 0; i < string.length; i++) {
-        console.log (string[i])
+        console.log(string[i])
     }
 
 // #3
@@ -65,12 +65,12 @@ let inventory = [
 
 function sub() {
     let input = document.getElementById("userInput").value;
-    for(let i = 0; i < inventory.length; i++) {
-      if(input == inventory[i][0]) {
-        if(inventory[i][1] > 0) {
-          inventory[i][1] -= 1;
-          console.log(inventory[i]);
+    for (let i = 0; i < inventory.length; i++) {
+        if (input == inventory[i][0]) {
+            if (inventory[i][1] > 0) {
+                inventory[i][1] -= 1;
+                console.log(inventory[i]);
+            }
         }
-      }
     }
-  }
+}

@@ -36,7 +36,7 @@ let inventory = [
 function add() {
   let input = document.getElementById("userInput").value;
   inventory.forEach(array => {
-      if(input == array [0]) {
+      if (input == array [0]) {
           array[1] += 1;
           console.log(array);
       }
@@ -45,9 +45,9 @@ function add() {
 
 function sub() {
   let input = document.getElementById("userInput").value;
-  for(let i = 0; i < inventory.length; i++) {
-    if(input == inventory[i][0]) {
-      if(inventory[i][1] > 0) {
+  for (let i = 0; i < inventory.length; i++) {
+    if (input == inventory[i][0]) {
+      if (inventory[i][1] > 0) {
         inventory[i][1] -= 1;
         console.log(inventory[i]);
       } else {
