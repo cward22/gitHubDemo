@@ -24,6 +24,7 @@ document.getElementById("listItemTwo").innerHTML = "quotes";
 document.getElementById("listItemThree").innerHTML = "photography prints";
 
 // Event Listener
+// #1
 
 document.getElementById("myBtn").addEventListener("click",
 function(){
