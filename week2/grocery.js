@@ -1,5 +1,5 @@
 // Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item).
-// Arrays 2 exercise is part of the grocery excercise
+// Arrays 2 exercise is part of the grocery excercise.
 /*
 var inventory = [];
 
@@ -63,3 +63,16 @@ function sub() {
 let inventoryTwo = ["bananas", "apples", "fries", "lettuce", "ground beef", "buns", "ketchup", "oil", "lemonade", "mayonnaise"];
 let quantity = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10];
 */
+
+// Notes : Parallel Array Option from Nick for Add Function
+// let name = ['bananas', 'apples', 'potatoes', 'lettuce', 'ground beef', 'bread', 'ketchup', 'oil', 'lemonade', 'mayonnaise']
+// let quantity = [12, 11, 10, 9, 8, 7, 6, 5, 4, 3];
+// function add() {
+//   let input = document.getElementById('userInput').value;
+//   for (let i = 0; i <name.length; i++) {
+//     if (input == name[i]) {
+//       quantity[i]++;
+//       console.log(`${name[i]}: ${quantity[i]}`);
+//     }
+//   }
+// }
