@@ -22,13 +22,13 @@ loop (8, 28);
 
 // Step 3. See if you can turn any functions into methods of objects.
 
-var inventory = {
-    item: "bananas",
-    quantity: 12,
-};
-inventory.count = function() {
-    return this.quantity + " " + this.item + " in stock";
-};
+// var inventory = {
+//     item: "bananas",
+//     quantity: 12,
+// };
+// inventory.count = function() {
+//     return this.quantity + " " + this.item + " in stock";
+// };
 
 
 // I was trying to find an efficient way to change an array of items and quantities into an object. 
