@@ -12,6 +12,7 @@ document.getElementById("myBtn").innerHTML = "Enter";
 
 document.getElementById("title").innerHTML = "*Welcome Home*";
 
+
 // #2
 
 // document.getElementById("list").className = "sections"
@@ -21,3 +22,10 @@ document.getElementById("listItemOne").innerHTML = "dreams";
 document.getElementById("listItemTwo").innerHTML = "quotes";
 
 document.getElementById("listItemThree").innerHTML = "photography prints";
+
+// Event Listener
+
+document.getElementById("myBtn").addEventListener("click",
+function(){
+    document.getElementById("listItemThree").innerHTML = "beauty";
+});
