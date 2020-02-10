@@ -49,3 +49,13 @@ function(){
 // for (var i =0; i < list2.length; i++) {
 //     list2[i].addEventListener("click", list2Done);
 // }
+
+// function myFunction(){
+//     document.getElementById("myDIV").className = "enjoy!";
+// }
+
+// document.getElementById("myBtn").addEventListener("click",
+// function(){
+//     document.getElementById("myDIV").innerHTML = "enjoy!";
+// });
+
