@@ -30,3 +30,22 @@ document.getElementById("myBtn").addEventListener("click",
 function(){
     document.getElementById("listItemThree").innerHTML = "beauty";
 });
+
+// #2 - see HTML document for new list
+
+// #3
+
+// document.getElementById("myBtn2").addEventListener("click",
+// function(){
+//     document.getElementsByClassName("list2").innerHTML = "enjoy!";
+// });
+
+// document.getElementById("list2").className.addEventListener("click",
+// function(){
+//     alert("enjoy!");
+// });
+
+// var item = document.getElementsByClassName("list2");
+// for (var i =0; i < list2.length; i++) {
+//     list2[i].addEventListener("click", list2Done);
+// }
