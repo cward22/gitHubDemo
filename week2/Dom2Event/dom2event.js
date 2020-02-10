@@ -61,5 +61,5 @@ function(){
 
 document.getElementById("myBtn2").addEventListener("click",
 function(){
-    document.getElementById("myList2").innerHTML = "wonder";
+    document.getElementById("myList2").innerHTML = "Enjoy!";
 });
