@@ -54,8 +54,12 @@ function(){
 //     document.getElementById("myDIV").className = "enjoy!";
 // }
 
-// document.getElementById("myBtn").addEventListener("click",
+// document.getElementById("myBtn2").addEventListener("click",
 // function(){
-//     document.getElementById("myDIV").innerHTML = "enjoy!";
+//     document.getElementById("myDIV").className = "enjoy!";
 // });
 
+document.getElementById("myBtn2").addEventListener("click",
+function(){
+    document.getElementById("myList2").innerHTML = "wonder";
+});
