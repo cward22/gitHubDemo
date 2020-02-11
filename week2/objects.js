@@ -31,4 +31,5 @@ loop (8, 28);
 // };
 
 
-// I was trying to find an efficient way to change an array of items and quantities into an object. 
+// I was trying to find an efficient way to change an array of items and quantities into an object.
+// I didn't find a way to turn functions into methods of objects with the mocha testing exercises.

@@ -97,4 +97,5 @@ function fillArray() {
 }
 fillArray();
 
-console.log(inventory);
+console.log(inventory);Bonus
+// "/^(?=*[A-Z])(?=*?[0-9])(?!.*\bexclude_password\b).{6,}$/"

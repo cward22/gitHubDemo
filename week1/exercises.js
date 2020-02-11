@@ -141,13 +141,13 @@ for (var q = 1; q < 100; q++) {
 function addThem (a, b) {
     return a + b;
 }
-    console.log(addThem(4,6)); // 10
+    console.log(addThem(4, 6)); // 10
 
 // #2 
 function multiThem (a, b) {
     return a * b;
 }
-    console.log(multiThem(4,6)); // 24
+    console.log(multiThem(4, 6)); // 24
 
 // #3
 
