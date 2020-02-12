@@ -12,6 +12,8 @@ document.getElementById("myBtn").innerHTML = "Enter";
 
 document.getElementById("title").innerHTML = "*Welcome Home*";
 
+document.getElementById("myBtn").style.backgroundColor = "teal";
+
 
 // #2
 
