@@ -18,7 +18,7 @@ body, html {
 
 #boxTwo {
     text-align: center;
-    background-image: url(images/two.jpg);
+    background-image: url(images/imageOne.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
