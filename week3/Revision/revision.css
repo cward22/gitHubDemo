@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body, html {
+    background-color: #f2f2f2;
+}
+
+#boxOne {
+    text-align: center;
+    background-color: white;
+}
+
+#boxTwo {
+    text-align: center;
+    background-image: url(images/two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #boxThree {
+    float: left;
+} */
+
+#boxFour {
+    text-align: center;
+    clear: both;
+}
+
+#boxAside {
+    float: right;
+    background-color: white;
+}
+
+#spanTwo {
+    display: inline-block;
+    width: 125px;
+    height: 600px;
+    padding: 5px;
+    border: black;
+    background-color: turquoise;
+    
+}
+
+.anchor {
+    font-family: 'Indie Flower', cursive;
+}
+
+#boxThree {
+    background-color: #e6fffa;
+}
