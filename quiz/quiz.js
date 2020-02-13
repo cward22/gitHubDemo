@@ -1,12 +1,17 @@
 // Problem #1
 
 var x = document.getElementById('userInput1').value;
-var y = document.getElementById('userInput1').value;
+var y = document.getElementById('userInput2').value;
 
-function divideThem(a ,b) {
-    return a / b;
+function divideThem(x ,y) {
+    return x / y;
 }
     console.log(divideThem(10.10, 5.00));
+
+// function divideThem(a ,b) {
+//     return a / b;
+// }
+//     console.log(divideThem(10.10, 5.00));
 // console.log(divideThem(10,5));
 
 // Problem #2
