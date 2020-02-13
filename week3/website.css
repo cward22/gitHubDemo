@@ -1,17 +1,26 @@
 h1 {
     text-align: center;
+    color: white;
 }
 
-/* body, html {
-    height: 100%
-} */
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body, html {
+    background-color: #f2f2f2;
+}
 
 #boxOne {
     text-align: center;
+    background: linear-gradient(#00cc99, #3d8f7a);
 }
 
 #boxTwo {
-    text-align:center;
+    text-align: center;
+    background-image: url(images/two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* #boxThree {
@@ -21,17 +30,28 @@ h1 {
 #boxFour {
     text-align: center;
     clear: both;
+    background: linear-gradient(#3d8f7a, #616b69);
 }
 
 #boxAside {
     float: right;
+    background-color: white;
 }
 
 #spanTwo {
     display: inline-block;
     width: 125px;
-    height: 700px;
+    height: 600px;
     padding: 5px;
     border: black;
     background-color: turquoise;
+    
+}
+
+.anchor {
+    font-family: 'Indie Flower', cursive;
+}
+
+#boxThree {
+    background-color: #e6fffa;
 }
