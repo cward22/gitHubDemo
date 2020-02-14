@@ -62,7 +62,4 @@ var barn = {
         return "blue";
         }
     };
-
-// Bonus
-
-// "/^(?=*[A-Z])(?=*?[0-9])(?!.*\bexclude_password\b).{6,}$/"
+}
