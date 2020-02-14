@@ -122,3 +122,7 @@ th, td {
     background-repeat: no-repeat;
     background-position: left;
 }
+
+#button {
+    margin: 14px;
+}
