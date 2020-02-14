@@ -36,18 +36,10 @@ body, html {
     background: linear-gradient(#3d8f7a, #616b69);
 }
 
-#boxAside {
-    width: 300px;
-    height:286px;
-    border: 2px dotted black;
-    float: right;
-    background-color: white;
-}
-
 #asideTitle {
     text-align: center;
-    width: 280px;
-    height: 48px;
+    width: 430px;
+    height: 50px;
     padding: 10px;
     margin: -1px;
     color: white;
@@ -57,14 +49,22 @@ body, html {
 
 #aside {
     text-align: center;
-    width: 92%;
-    height: 68%;
+    width: 95%;
+    height: 70%;
     padding: 9px;
     margin: 2px;
     border: 1px solid black;
     background-image: url(images/imageFour.jpg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#boxAside {
+    width: 450px;
+    height: 308px;
+    border: 2px dotted black;
+    float: right;
+    background-color: white;
 }
 
 /* #spanTwo {
@@ -94,7 +94,7 @@ body, html {
 }
 
 #table {
-    width: 280px;
+    width: 430px;
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -114,11 +114,11 @@ th, td {
 }
 
 #tableFooter {
-    height: 500px;
+    height: 4%;
 }
 
 #travelImage {
-    height: 20px;
+    height: 36px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
 }
