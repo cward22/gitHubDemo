@@ -2,10 +2,12 @@
 
 var x = document.getElementById('userInput1').value;
 var y = document.getElementById('userInput2').value;
+var answer = x / y
 
 function divideThem(x ,y) {
     return x / y;
 }
+    // console.log(divideThem(x, y));
     console.log(divideThem(10.10, 5.00));
 
 // function divideThem(a ,b) {
