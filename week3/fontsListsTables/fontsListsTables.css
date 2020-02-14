@@ -22,6 +22,7 @@ body, html {
     background-image: url(images/imageOne.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 /* #boxThree {
@@ -79,6 +80,16 @@ th, td {
 
 #aside {
     background-image: url(images/imageFour.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tableFooter {
+    height: 500px;
+}
+
+#travelImage {
+    height: 20px;
     background-repeat: no-repeat;
     background-position: center;
 }
