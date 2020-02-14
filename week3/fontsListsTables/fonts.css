@@ -18,6 +18,7 @@ body, html {
 
 #boxTwo {
     text-align: center;
+    height: 500px;
     background-image: url(images/imageOne.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +39,7 @@ body, html {
     background-color: white;
 }
 
-#spanTwo {
+/* #spanTwo {
     display: inline-block;
     width: 125px;
     height: 600px;
@@ -46,7 +47,7 @@ body, html {
     border: black;
     background-color: turquoise;
     
-}
+} */
 
 .anchor {
     font-family: 'Indie Flower', cursive;
