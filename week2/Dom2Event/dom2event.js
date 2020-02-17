@@ -33,6 +33,11 @@ function(){
     document.getElementById("listItemThree").innerHTML = "beauty";
 });
 
+document.getElementById("myBtn").addEventListener("click",
+function(){
+    document.getElementById("listItemThree").style.color = "plum";
+});
+
 // #2 - see HTML document for new list
 
 // #3
