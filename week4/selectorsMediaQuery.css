@@ -123,6 +123,21 @@ th, td {
     background-position: left;
 }
 
+#section {
+    margin: 12px;
+    padding:20px;
+    border: 2px solid turquoise;
+    background-color: #e6fffa;
+    outline: 6px solid white;
+    outline-offset: 6px;
+}
+
 #button {
     margin: 14px;
+}
+
+.button--state-moreinfo {
+    color: teal;
+    background: white;
+    border-color: black;
 }
