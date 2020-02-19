@@ -177,13 +177,16 @@ th, td {
     width: 50%;
     height: 10px;
     background-color: teal;
+    position: relative;
     animation-name: welcome;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 }
 
 @keyframes welcome {
     from {background-color: teal;}
     to {background-color: grey;}
+    0% { background-color: teal; left: 0px;}
+    100% {background-color: grey; left: 950px;}
 }
 
 #button {
