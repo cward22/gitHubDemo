@@ -167,11 +167,11 @@ th, td {
     outline: 6px solid white;
     outline-offset: 6px; */
     
-/* @media screen and (max-width: 600px) {
-    .column {
+@media screen and (max-width: 600px) {
+    .div {
         width: 100%;
     }
-} */
+}
 
 #boxAnimation {
     width: 50%;
