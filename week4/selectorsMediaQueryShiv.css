@@ -186,6 +186,7 @@ th, td {
     from {background-color: teal;}
     to {background-color: grey;}
     0% { background-color: teal; left: 0px;}
+    50% {background-color: white; left: 475px;}
     100% {background-color: grey; left: 950px;}
 }
 
