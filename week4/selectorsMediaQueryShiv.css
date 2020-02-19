@@ -87,7 +87,7 @@ body, html {
 }
 
 .paragraph {
-    width: 1300px;
+    width: 65vw;
     height: 200px;
     padding: 10px;
     margin: 2px;
@@ -186,8 +186,10 @@ th, td {
     from {background-color: teal;}
     to {background-color: grey;}
     0% { background-color: teal; left: 0px;}
-    50% {background-color: white; left: 475px;}
-    100% {background-color: grey; left: 950px;}
+    50% {background-color: white; left: 50vw;}
+    100% {background-color: grey; left: 100vw;}
+    /* 50% {background-color: white; left: 475px;}
+    100% {background-color: grey; left: 950px;} */
 }
 
 #button {
