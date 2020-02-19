@@ -173,6 +173,19 @@ th, td {
     }
 } */
 
+#boxAnimation {
+    width: 50%;
+    height: 10px;
+    background-color: teal;
+    animation-name: welcome;
+    animation-duration: 3s;
+}
+
+@keyframes welcome {
+    from {background-color: teal;}
+    to {background-color: grey;}
+}
+
 #button {
     background-color: rgb(29, 105, 105);
     color: white;
