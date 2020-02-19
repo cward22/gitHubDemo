@@ -62,6 +62,7 @@ body, html {
 #boxAside {
     width: 450px;
     height: 308px;
+    margin: 4px;
     border: 2px dotted black;
     float: right;
     background-color: white;
@@ -142,11 +143,12 @@ th, td {
 }
 
 #paragraphThree {
+    /* margin: 10px; */
     position: absolute;
-    border: 2px solid black;
+    border: 2px solid grey;
     outline: 6px solid white;
     outline-offset: 2px;
-    z-index: -1;
+    z-index: 1;
 }
 
     /* margin: 2px;
@@ -163,7 +165,12 @@ th, td {
     left: 10px;
     outline: 6px solid white;
     outline-offset: 6px; */
-/* } */
+    
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
 
 #button {
     margin: 14px;
