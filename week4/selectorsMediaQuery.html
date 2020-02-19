@@ -69,11 +69,12 @@
         <section id="section">
             <h2 id="headingThree" class="heading">Section</h2>
             <p id="paragraphThree" class="paragraph">Content
-                <ul id="unorderedList2" class ="paragraph">
+                <ul id="unorderedList2" class="paragraph" role="list">
+                    <!-- ARIA list and listitem roles -->
                     <br>
-                    <li>Where would you like to visit?</li>
-                    <li>What song reminds you of home?</li>
-                    <li>What is one food you would like to try?</li>
+                    <li role="listitem">Where would you like to visit?</li>
+                    <li role="listitem">What song reminds you of home?</li>
+                    <li role="listitem">What is one food you would like to try?</li>
                 </ul>
             </p>
             <a href="https://www.soundstripe.com/" class="anchor">Check out soundstripe.com!</a>
@@ -85,7 +86,7 @@
         <!-- a contentinfo landmark role -- ARIA -->
         <footer id="footer">
             <p id="paragraphFour">To join mailing list, enter your email address:</p>
-            <input id= "email" type="email" name="email-address">
+            <input id="email" type="email" name="email-address">
             <button id="button" class="block">Enter</button>
             <button class="button button--state-moreinfo">More Info</button>
         </footer>
