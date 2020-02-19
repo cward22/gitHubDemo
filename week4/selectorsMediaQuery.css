@@ -182,7 +182,7 @@ th, td {
 }
 
 #button:hover {
-    opacity: 2
+    opacity: 2;
 }
 
 .button--state-moreinfo {
