@@ -85,11 +85,11 @@ body, html {
     background-color: #e6fffa;
 }
 
-#paragraphThree {
-    width: 1372px;
+.paragraph {
+    width: 1300px;
     height: 200px;
     padding: 10px;
-    margin: 20px;
+    margin: 2px;
     border: 1px dotted black;
 }
 
@@ -97,6 +97,10 @@ body, html {
     width: 430px;
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+#unorderedList2 {
+    list-style-position: inside;
 }
 
 /* #firstRow, #tableHeader {
@@ -120,8 +124,8 @@ th, td {
 #travelImage {
     background-repeat: no-repeat;
     background-position: left;
-    height: 2vw;
-    width: 10vh;
+    height: 4vh;
+    width: 6vw;
 }
 
 #section {
@@ -137,9 +141,12 @@ th, td {
     z-index: 10; */
 }
 
-#headingThree {
+/* #paragraphThree {
     position: absolute;
-    z-index: -1;
+    border: 2px solid black;
+    outline: 6px solid white;
+    outline-offset: 2px; */
+    /* z-index: -1; */
 
     /* margin: 2px;
     padding: 4px;
@@ -155,7 +162,7 @@ th, td {
     left: 10px;
     outline: 6px solid white;
     outline-offset: 6px; */
-}
+/* } */
 
 #button {
     margin: 14px;
