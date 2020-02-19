@@ -131,7 +131,7 @@ th, td {
 
 #section {
     margin: 12px;
-    padding:20px;
+    padding: 20px;
     border: 2px solid turquoise;
     background-color: #e6fffa;
     outline: 6px solid white;
@@ -142,14 +142,15 @@ th, td {
     z-index: 10; */
 }
 
-#paragraphThree {
-    /* margin: 10px; */
+/* #paragraphThree {
+    margin: 10px;
     position: absolute;
     border: 2px solid grey;
     outline: 6px solid white;
     outline-offset: 2px;
-    z-index: 1;
-}
+    z-index: -1;
+    z-index: 1
+} */
 
     /* margin: 2px;
     padding: 4px;
@@ -166,14 +167,22 @@ th, td {
     outline: 6px solid white;
     outline-offset: 6px; */
     
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .column {
         width: 100%;
     }
-}
+} */
 
 #button {
+    background-color: rgb(29, 105, 105);
+    color: white;
     margin: 14px;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+#button:hover {
+    opacity: 2
 }
 
 .button--state-moreinfo {
