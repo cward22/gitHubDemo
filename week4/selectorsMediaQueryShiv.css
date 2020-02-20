@@ -179,7 +179,7 @@ th, td {
     background-color: teal;
     position: relative;
     animation-name: welcome;
-    animation-duration: 3.5s;
+    animation-duration: 11s;
 }
 
 @keyframes welcome {
