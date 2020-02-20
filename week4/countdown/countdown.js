@@ -48,3 +48,14 @@ var timer = 8;
 //     },  1000);
 // })();
 
+// var numbers = [
+//     1,
+//     2,
+//     3,
+//     4,
+//     5,
+// ];
+
+// function countDown(){
+// var input = document.getElementById("userInput").value;
+// if

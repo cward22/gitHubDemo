@@ -3,20 +3,41 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-
+    <link rel="stylesheet" type="text/css" href="countdown.css">
     <title>Exercise Countdown</title>
     <meta name="description" content="homework">
 
 </head>
 
 <body>
-    <!-- <h2 id="number">11 seconds</h2> -->
     <h1>Countdown Timer</h1>
-    <input id="userInput" type="text" name="seconds" size ="11"
-    placeholder="input a number"> seconds
+    <input id="userInput" type="text" name="seconds" size ="20"
+    placeholder="input a number 1-8"> seconds
     <br>
     <button>Enter</button>
+    <h2 id="number">8 seconds</h2>
     <!--CHANGE THIS  NEXT LINE --> 
-    <script src="countdown.js"></script>
+    <!-- <script src="countdown.js"></script> -->
+    
+<script>
+
+// Define a variable
+// var numbers = document.getElementById("userInput").value;
+
+// Create a function
+// I found a similar solution online
+// setTimeout(function, milliseconds) executes a function after a specified number of milliseconds
+// 1000 milliseconds equals 1 second
+var i = 8;
+(function countDown(){
+    if (--i < 0) return;
+    setTimeout(function(){
+        document.getElementById("number").innerHTML = i + " seconds";
+        countDown();
+    }, 1000);
+})();
+    
+
+</script>
 </body>
 </html>
