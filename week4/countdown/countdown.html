@@ -15,28 +15,47 @@
     placeholder="input a number 1-8"> seconds
     <br>
     <button>Enter</button>
-    <h2 id="number">8 seconds</h2>
+    <!-- <button onclick="countDown();">Enter</button> -->
+    <p id="countdown">seconds</p>
+    <h2 id="number">seconds</h2>
     <!--CHANGE THIS  NEXT LINE --> 
     <!-- <script src="countdown.js"></script> -->
-    
+
 <script>
 
 // Define a variable
 // var numbers = document.getElementById("userInput").value;
 
 // Create a function
-// I found a similar solution online
 // setTimeout(function, milliseconds) executes a function after a specified number of milliseconds
 // 1000 milliseconds equals 1 second
-var i = 8;
-(function countDown(){
+// I found a similar solution online; however, I'm not sure why the function is in parentheses
+var i =  8;
+
+(function countDown() {
     if (--i < 0) return;
-    setTimeout(function(){
+    setTimeout(function() {
         document.getElementById("number").innerHTML = i + " seconds";
         countDown();
     }, 1000);
 })();
-    
+
+// var numbers = document.getElementById("userInput").value;
+
+// (function timer(){
+//     if (--i < 0) return;
+//     setTimeout(function(){
+//         document.getElementById("countdown").innerHTML = i + " seconds";
+//         timer();
+//     }, 1000);
+// })();
+
+
+// var numbers = setTimeout(countDown, 1000);
+
+// function countDown(){
+//     var
+// }
 
 </script>
 </body>
