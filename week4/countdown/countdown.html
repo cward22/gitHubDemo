@@ -14,8 +14,8 @@
     <input id="userInput" type="text" name="seconds" size ="20"
     placeholder="input a number 1-8"> seconds
     <br>
-    <!-- <button>Enter</button> -->
-    <button onclick="countDown();">Enter</button>
+    <button>Enter</button>
+    <!-- <button onclick="countTimer();">Enter</button> -->
     <p id="countdown">seconds</p>
     <h2 id="number">8 seconds</h2>
     <!--CHANGE THIS  NEXT LINE --> 
@@ -32,12 +32,12 @@
 // I found a similar solution online; however, I'm not sure why the function is in parentheses
 var i =  8;
 
-(function countDown() {
+(function countTimer() {
     if (--i < 0) return;
      // --i means the initial number (or var i in this case) decremented by 1
     setTimeout(function() {
         document.getElementById("number").innerHTML = i + " seconds";
-        countDown();
+        countTimer();
     }, 1000);
 })();
 
