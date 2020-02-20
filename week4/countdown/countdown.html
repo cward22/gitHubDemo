@@ -14,10 +14,10 @@
     <input id="userInput" type="text" name="seconds" size ="20"
     placeholder="input a number 1-8"> seconds
     <br>
-    <button>Enter</button>
-    <!-- <button onclick="countDown();">Enter</button> -->
+    <!-- <button>Enter</button> -->
+    <button onclick="countDown();">Enter</button>
     <p id="countdown">seconds</p>
-    <h2 id="number">seconds</h2>
+    <h2 id="number">8 seconds</h2>
     <!--CHANGE THIS  NEXT LINE --> 
     <!-- <script src="countdown.js"></script> -->
 
@@ -34,6 +34,7 @@ var i =  8;
 
 (function countDown() {
     if (--i < 0) return;
+     // --i means the initial number (or var i in this case) decremented by 1
     setTimeout(function() {
         document.getElementById("number").innerHTML = i + " seconds";
         countDown();
