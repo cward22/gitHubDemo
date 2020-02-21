@@ -196,12 +196,12 @@ th, td {
     background-color: rgb(29, 105, 105);
     color: white;
     margin: 14px;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     transition: 0.4s;
 }
 
 .button:hover {
-    opacity: 2;
+    opacity: 0.7;
 }
 
 .button--state-success {
