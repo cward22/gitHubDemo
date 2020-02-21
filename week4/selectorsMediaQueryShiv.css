@@ -30,6 +30,15 @@ body, html {
     float: left;
 } */
 
+#boxAside {
+    width: 450px;
+    height: 308px;
+    margin: 4px;
+    border: 2px dotted black;
+    float: right;
+    background-color: white;
+}
+
 #asideTitle {
     text-align: center;
     width: 430px;
@@ -53,41 +62,6 @@ body, html {
     background-position: center;
 }
 
-#boxAside {
-    width: 450px;
-    height: 308px;
-    margin: 4px;
-    border: 2px dotted black;
-    float: right;
-    background-color: white;
-}
-
-/* #spanTwo {
-    display: inline-block;
-    width: 125px;
-    height: 600px;
-    padding: 5px;
-    border: black;
-    background-color: turquoise;
-    
-} */
-
-.anchor {
-    font-family: 'Indie Flower', cursive;
-}
-
-#boxThree {
-    background-color: #e6fffa;
-}
-
-.paragraph {
-    width: 65vw;
-    height: 20vh;
-    padding: 10px;
-    margin: 2px;
-    border: 1px dotted black;
-}
-
 #table {
     width: 430px;
     border: 1px solid black;
@@ -97,11 +71,6 @@ body, html {
 #unorderedList2 {
     list-style-position: inside;
 }
-
-/* #firstRow, #tableHeader {
-    border: 1px solid black;
-    border-collapse: collapse;
-} */
 
 th, td {
     border: 1px solid black;
@@ -122,6 +91,37 @@ th, td {
     height: 4vh;
     width: 6vw;
 }
+
+/* #spanTwo {
+    display: inline-block;
+    width: 125px;
+    height: 600px;
+    padding: 5px;
+    border: black;
+    background-color: turquoise;
+    
+} */
+
+#boxThree {
+    background-color: #e6fffa;
+}
+
+.anchor {
+    font-family: 'Indie Flower', cursive;
+}
+
+.paragraph {
+    width: 65vw;
+    height: 20vh;
+    padding: 10px;
+    margin: 2px;
+    border: 1px dotted black;
+}
+
+/* #firstRow, #tableHeader {
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
 
 #section {
     margin: 12px;
@@ -192,7 +192,7 @@ th, td {
     background: linear-gradient(#3d8f7a, #616b69);
 }
 
-#button {
+.button {
     background-color: rgb(29, 105, 105);
     color: white;
     margin: 14px;
@@ -200,7 +200,7 @@ th, td {
     transition: 0.4s;
 }
 
-#button:hover {
+.button:hover {
     opacity: 2;
 }
 
