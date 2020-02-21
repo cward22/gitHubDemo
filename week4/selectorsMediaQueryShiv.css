@@ -30,12 +30,6 @@ body, html {
     float: left;
 } */
 
-#boxFour {
-    text-align: center;
-    clear: both;
-    background: linear-gradient(#3d8f7a, #616b69);
-}
-
 #asideTitle {
     text-align: center;
     width: 430px;
@@ -192,6 +186,12 @@ th, td {
     100% {background-color: grey; left: 950px;} */
 }
 
+#boxFour {
+    text-align: center;
+    clear: both;
+    background: linear-gradient(#3d8f7a, #616b69);
+}
+
 #button {
     background-color: rgb(29, 105, 105);
     color: white;
@@ -204,7 +204,7 @@ th, td {
     opacity: 2;
 }
 
-.button--state-moreinfo {
+.button--state-success {
     color: teal;
     background: white;
     border-color: black;
