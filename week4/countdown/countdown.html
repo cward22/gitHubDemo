@@ -30,7 +30,10 @@
 // setTimeout(function, milliseconds) executes a function after a specified number of milliseconds
 // 1000 milliseconds equals 1 second
 // I found a similar solution online; however, I'm not sure why the function is in parentheses
+// I found out the function is an anonymous self-invoking function
+
 var i =  8;
+var myFunction = countTimer();
 
 (function countTimer() {
     if (--i < 0) return;
