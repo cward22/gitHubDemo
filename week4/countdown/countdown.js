@@ -36,7 +36,7 @@
 
 // Define a variable
 
-var timer = 8;
+// var timer = 8;
 
 // Create a function
 
