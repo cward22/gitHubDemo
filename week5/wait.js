@@ -6,10 +6,10 @@ function myFunction() {
 
 myFunction();
 
-// function myFunction2() {
-//     setInterval(function() {
-//         console.log("Hope you had a great day!");
-//     }, 11000);
-// }
+function myFunction2() {
+    setInterval(function() {
+        console.log("Hope you had a great day!");
+    }, 11000);
+}
 
-// myFunction2();
+myFunction2();
