@@ -9,7 +9,7 @@ myFunction();
 function myFunction2() {
     setInterval(function() {
         console.log("Hope you had a great day!");
-    }, 11000);
+    }, 14000);
 }
 
 myFunction2();
