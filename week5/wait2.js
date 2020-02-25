@@ -22,3 +22,15 @@ module.exports = greeting
 
 // myFunction().then(promise);
 
+
+// const promise = new Promise(function(resolve, reject) {
+//     resolve('Success');
+// });
+
+// setTimeout(() => {
+//     console.log(then)
+// }
+
+// promise.then(function(value) {
+//     console.log(value);
+// });
