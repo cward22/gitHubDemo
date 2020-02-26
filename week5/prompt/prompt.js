@@ -5,21 +5,31 @@ const readline = require('readline').createInterface({
     output: process.stdout
 })
 
+// Then have the prompt print to the console a string with some of the user's response
+
 readline.question(`What's your first name?`, (firstName) => {
-    console.log(`Hola ${firstName}!`)   
+    console.log(`Hola, ${firstName}!`)   
             readline.close
+// Then after that question is asked. Ask another question
+        readline.question(`What is your favorite song?`, (favoriteSong) => {
+                    console.log(`${favoriteSong} is a great song!`)
+                    readline.close
+                })
 })
 
-// const readline2 = require('readline').createInterface({
+// 2nd question by itself
+
+// const readline = require('readline').createInterface({
 //     input: process.stdin,
 //     output: process.stdout
 // })
 
-// readline2.question(`What is your favorite song?`, (favoriteSong) => {
+// readline.question(`What is your favorite song?`, (favoriteSong) => {
 //     console.log(`${favoriteSong} is a great song!`)
 //     readline2.close
 // })
 
+// Note for below: would need to install using npm install inquirer to use
 
 // const inquirer = require('inquirer')
 
