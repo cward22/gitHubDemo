@@ -9,12 +9,14 @@ const readline = require('readline').createInterface({
 
 readline.question(`What's your first name?`, (firstName) => {
     console.log(`Hola, ${firstName}!`)   
-            readline.close
+    readline.close
+
 // Then after that question is asked. Ask another question
-        readline.question(`What is your favorite song?`, (favoriteSong) => {
-                    console.log(`${favoriteSong} is a great song!`)
-                    readline.close
-                })
+
+    readline.question(`What is your favorite song?`, (favoriteSong) => {
+        console.log(`${favoriteSong} is a great song!`)
+        readline.close
+    })
 })
 
 // 2nd question by itself
