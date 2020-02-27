@@ -1,9 +1,11 @@
 const http = require('http');
+const greeting = "Hola, World!"
 
+//create a server object
 const server = http.createServer((req, res)=>{
     if (req.url === '/') {
-        res.write('Hola, World!');
-        res.end();
+        res.write(`<h1>${greeting}</h1>`);
+        res.end(); // ends the respone
     }
 
     if (req.url === '/songs') {
@@ -16,5 +18,6 @@ const server = http.createServer((req, res)=>{
 //     console.log("connected");
 // });
 
+//the server obeject is listening on port 8080
 server.listen(8080);
 console.log("server is on");
