@@ -1,5 +1,5 @@
 const http = require('http');
-const greeting = "Hola, World!"
+const greeting = "Hello, World!"
 
 //create a server object
 const server = http.createServer((req, res)=>{
