@@ -19,9 +19,9 @@
 //     output2
 // }
 
-// module.exports = {
-//     output(input, rl) {
-//         console.log(input);
-//         rl.close();
-//     }
-// }
+module.exports = {
+    output(input, rl) {
+        console.log(input);
+        rl.close();
+    }
+}
