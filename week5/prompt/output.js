@@ -21,7 +21,7 @@
 
 module.exports = {
     output(input, rl) {
-        console.log(input);
+        console.log(`Hola, ${input}!`);
         rl.close();
     }
 }
