@@ -19,3 +19,17 @@
 // const input2 = readline.question(`What is your favorite song?`, (favoriteSong) => {
 //     readline.close
 // })
+
+
+// module.exports = {
+//     input(rl) {
+//         const promise = new Promise(resolve => {
+//             let input;
+//             rl.on('line', input => {
+//                 input = userInput;
+//                 resolve(input);
+//             });
+//         })
+//         return promise;
+//     }
+// }

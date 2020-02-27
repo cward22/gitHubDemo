@@ -18,3 +18,10 @@
 //     output1,
 //     output2
 // }
+
+// module.exports = {
+//     output(input, rl) {
+//         console.log(input);
+//         rl.close();
+//     }
+// }
