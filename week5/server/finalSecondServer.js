@@ -12,6 +12,10 @@ http.createServer(function (request, response) {
     // }
 
     var filePath = '.' + request.url;
+    if (request.url === '/') {
+        response.write(heading);
+        response.end(); // ends the respone
+    }
     if (request.url ==='/about') {
         filePath = './index.html';
     }
