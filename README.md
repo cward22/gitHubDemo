@@ -4,7 +4,7 @@ more text
 :heart:
 
 # Greetings
-My name is *Chanice (Shah-nees) Ward.*
+My name is *Chanice (SHA-nees) Ward.*
 
 ## I enjoy:
 1. **writing poetry** :pencil2:
