@@ -1,0 +1,28 @@
+.whiteNote {
+    height: 100%;
+    width: 50px;
+    background: white;
+    float: left;
+    border-right: 1px solid black;
+    position: relative;
+}
+
+.blackNote {
+    position: absolute;
+    height: 64%;
+    width: 56%;
+    z-index: 1;
+    background: black;
+    left: 71%;
+    border-radius: 2px;
+}
+
+#container {
+    position: absolute;
+    height: 240px;
+    border: 5px solid black;
+    top: calc(50% - 100px);
+    left: calc(50% - 350px);
+    overflow: hidden;
+    border-radius: 5px;
+}
