@@ -12,21 +12,21 @@ for (var octave = 0; octave < 2; octave++)
             hasSharp = false;
 
         html += `<div class="whiteNote"
-            onmousedown="noteDown(this, false)" 
+            onmousedown="noteDown(this, false)"
             onmouseup="noteUp(this, false)"
             onmouseleave="noteUp(this, false)" 
             data-note="${note + (octave + 4)}">`;
 
         if (hasSharp) {    
             html += `<div class="blackNote"
-            onmousedown="noteDown(this, true)" 
+            onmousedown="noteDown(this, true)"
             onmouseup="noteUp"(this, true)"
             onmouseleave="noteUp(this, true)"
             data-note="${note + "#" + (octave + 4)}"></div>`;
         }
 
         html += "</div>";
-
+// each of the following letters and numbers on a keyboard fire off a music note
         document.addEventListener("keydown", e => {
             switch (e.key) {
                 case "w":
@@ -82,9 +82,9 @@ for (var octave = 0; octave < 2; octave++)
                     return synth.triggerAttack("B5");
                 // press a to stop note from playing
                 case "a":
-                    return synth.triggerRelease();
+                    return synth.triggerRelease()
                 default:
-                    return;    
+                    return;   
             }
         })
     }
@@ -100,6 +100,6 @@ function noteDown(elem, isSharp) {
     var note = elem.dataset.note;
     //alert(note);
     elem.style.background = isSharp ? "#777" : "#ccc";
-    synth.triggerAttackRelease(note, "16n");
+    synth.triggerAttack(note, "16n");
     event.stopPropagation();
 }
